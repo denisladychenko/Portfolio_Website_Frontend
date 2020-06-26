@@ -1,0 +1,36 @@
+.photo-card-container {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+}
+
+
+
+.photo-card {
+    width: 100%;
+    height: 100%;
+    border: 10px solid #034058;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+}
+
+.resume-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+}
+
+.resume-photo-container {
+    float: left;
+}
+
+
+

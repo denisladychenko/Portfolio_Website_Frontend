@@ -1,0 +1,90 @@
+.resume-heading {
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    /* border: 2px solid black; */
+}
+
+.resume-section {
+    margin: 50px auto 0;
+    width: 90%;
+    height: 200px;
+    border: 2px solid rgb(245, 242, 242);
+    border-radius: 20px;
+    background-color: rgb(241, 229, 194);
+    height: auto;
+    box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+}
+
+.resume-section-paragraph {
+    margin: 7px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    
+}
+
+.indented-resume-section-paragraph {
+    margin: 7px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-left: 200px;
+}
+
+.indented-title {
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
+.resume-section-title {
+    margin: 7px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.resume-section-title-header-container {
+    height: 2.2rem;
+    background-color: rgb(192, 201, 162);
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-section-title-header-container h3 {
+    /* margin-left: 5rem; */
+    text-align: center;
+}
+
+#fluent {
+    margin-left: 300px;
+}
+
+#others {
+    margin-left: 296px;
+}
+
+#frameworks {
+    margin-left: 244px;
+}
+
+#tools {
+    margin-left: 357px;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+#operating-systems {
+    margin-left: 218px;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+#asu-date {
+    margin-left: 500px;
+}
+
+#wscc-date {
+    margin-left: 403px;
+}

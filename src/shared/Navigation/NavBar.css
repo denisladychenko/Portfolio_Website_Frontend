@@ -1,0 +1,28 @@
+.nav-bar {
+    background-color: #333333;
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.nav-bar nav {
+    overflow: hidden;
+}
+
+.logo {
+    color: white;
+    margin: 0.7rem;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+}
+
+.logo-container {
+    float: left; 
+    height: inherit; 
+    margin-left: 1rem;
+}
+
+.bars {
+    display: none;
+}

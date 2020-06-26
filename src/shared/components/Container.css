@@ -1,0 +1,26 @@
+.resume-container {
+    width: 58%;
+    height: auto;
+    margin: 20px auto;
+    /* border: 3px solid wheat; */
+    margin-bottom: 6rem;
+}
+
+
+.resume-heading-middle-container {
+    float: left;
+    margin-left: 15%;
+}
+.resume-heading-right-container {
+    float: left;
+    margin-left: 10%;
+}
+
+.resume-heading-right-container a {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.container {
+    margin-bottom: 6rem;
+}

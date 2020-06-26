@@ -1,0 +1,50 @@
+.right-paragraph-card-container {
+    border: 10px solid white;
+    width: 800px;
+    height: 15rem;
+    float: left;
+    margin-left: 60px; 
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    background-image: url(../../images/notebook.png);
+}
+
+.left-paragraph-card-container {
+    border: 10px solid white;
+    width: 800px;
+    height: 15rem;
+    float: left;
+    margin:0 60px 0 0; 
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    background-image: url(../../images/notebook_flipped.png);
+}
+.left-bio-paragraph {
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 60px 0 10px;
+}
+
+.right-bio-paragraph {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 70px;
+  }
+
+.title-header-container {
+    height: 2.2rem;
+    background-color: rgb(192, 201, 162);
+    border-radius: 20px 20px 0 0;
+}
+
+.title-header-container h3 {
+    /* margin-left: 5rem; */
+    text-align: center;
+}
+
