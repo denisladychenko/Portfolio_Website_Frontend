@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab82da5f076125ca2e9855d7cd0ed661",
+    "revision": "fbd2a473fcc6c82a3b2a949c5e8420aa",
     "url": "/Portfolio_Website_Frontend/index.html"
   },
   {
-    "revision": "d89e6032335e5c262b97",
-    "url": "/Portfolio_Website_Frontend/static/css/main.36cadddc.chunk.css"
+    "revision": "2f3eeadd68246f26b5bd",
+    "url": "/Portfolio_Website_Frontend/static/css/main.2d4fde77.chunk.css"
   },
   {
-    "revision": "24c46c198f684d6bc66f",
-    "url": "/Portfolio_Website_Frontend/static/js/2.b8d64e98.chunk.js"
+    "revision": "0fc950321c76f8c7a076",
+    "url": "/Portfolio_Website_Frontend/static/js/2.4146ec5c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Portfolio_Website_Frontend/static/js/2.b8d64e98.chunk.js.LICENSE.txt"
+    "url": "/Portfolio_Website_Frontend/static/js/2.4146ec5c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d89e6032335e5c262b97",
-    "url": "/Portfolio_Website_Frontend/static/js/main.59990beb.chunk.js"
+    "revision": "2f3eeadd68246f26b5bd",
+    "url": "/Portfolio_Website_Frontend/static/js/main.9a70676c.chunk.js"
   },
   {
     "revision": "0b43568fc3f640dd5dd8",
     "url": "/Portfolio_Website_Frontend/static/js/runtime-main.7e43531c.js"
+  },
+  {
+    "revision": "0e777a8569a8eeb18db6b9e7159f089f",
+    "url": "/Portfolio_Website_Frontend/static/media/Connect4_game.0e777a85.png"
   },
   {
     "revision": "c0e65ae65e511e85cb3f30f6f9a40fb8",
@@ -50,6 +54,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad70581f12eec5030d6e93e16bfa2993",
     "url": "/Portfolio_Website_Frontend/static/media/notebook_flipped.ad70581f.png"
+  },
+  {
+    "revision": "4280df9d909381da7570d78124894628",
+    "url": "/Portfolio_Website_Frontend/static/media/pizzeria.4280df9d.png"
+  },
+  {
+    "revision": "8835aecba09a6454970fb4112ce2f83a",
+    "url": "/Portfolio_Website_Frontend/static/media/portfolio_ws.8835aecb.png"
+  },
+  {
+    "revision": "13ad361603968cd9f8127d3544caaec4",
+    "url": "/Portfolio_Website_Frontend/static/media/snake_game.13ad3616.png"
   },
   {
     "revision": "d224cc8b23a4c9eda4faf1b7a0f9b95f",
