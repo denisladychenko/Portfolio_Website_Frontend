@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio_Website_Frontend/static/css/main.2d4fde77.chunk.css",
-    "main.js": "/Portfolio_Website_Frontend/static/js/main.d34e3e8f.chunk.js",
-    "main.js.map": "/Portfolio_Website_Frontend/static/js/main.d34e3e8f.chunk.js.map",
+    "main.js": "/Portfolio_Website_Frontend/static/js/main.c2cbf82c.chunk.js",
+    "main.js.map": "/Portfolio_Website_Frontend/static/js/main.c2cbf82c.chunk.js.map",
     "runtime-main.js": "/Portfolio_Website_Frontend/static/js/runtime-main.7e43531c.js",
     "runtime-main.js.map": "/Portfolio_Website_Frontend/static/js/runtime-main.7e43531c.js.map",
-    "static/js/2.4146ec5c.chunk.js": "/Portfolio_Website_Frontend/static/js/2.4146ec5c.chunk.js",
-    "static/js/2.4146ec5c.chunk.js.map": "/Portfolio_Website_Frontend/static/js/2.4146ec5c.chunk.js.map",
+    "static/js/2.8bb3a982.chunk.js": "/Portfolio_Website_Frontend/static/js/2.8bb3a982.chunk.js",
+    "static/js/2.8bb3a982.chunk.js.map": "/Portfolio_Website_Frontend/static/js/2.8bb3a982.chunk.js.map",
     "index.html": "/Portfolio_Website_Frontend/index.html",
-    "precache-manifest.1430b0e352cdde27ea5e8ee6ba4d2a4f.js": "/Portfolio_Website_Frontend/precache-manifest.1430b0e352cdde27ea5e8ee6ba4d2a4f.js",
+    "precache-manifest.6307f9aa99e1d25f3a4268cd5a88446a.js": "/Portfolio_Website_Frontend/precache-manifest.6307f9aa99e1d25f3a4268cd5a88446a.js",
     "service-worker.js": "/Portfolio_Website_Frontend/service-worker.js",
     "static/css/main.2d4fde77.chunk.css.map": "/Portfolio_Website_Frontend/static/css/main.2d4fde77.chunk.css.map",
-    "static/js/2.4146ec5c.chunk.js.LICENSE.txt": "/Portfolio_Website_Frontend/static/js/2.4146ec5c.chunk.js.LICENSE.txt",
+    "static/js/2.8bb3a982.chunk.js.LICENSE.txt": "/Portfolio_Website_Frontend/static/js/2.8bb3a982.chunk.js.LICENSE.txt",
     "static/media/Connect4_game.png": "/Portfolio_Website_Frontend/static/media/Connect4_game.0e777a85.png",
+    "static/media/Denis_Ladychenko_Resume.pdf": "/Portfolio_Website_Frontend/static/media/Denis_Ladychenko_Resume.dc47c50f.pdf",
     "static/media/My_photo_copy.PNG": "/Portfolio_Website_Frontend/static/media/My_photo_copy.c0e65ae6.PNG",
     "static/media/WSCC_copy_1.png": "/Portfolio_Website_Frontend/static/media/WSCC_copy_1.88c0a75b.png",
     "static/media/arizona-state-university.png": "/Portfolio_Website_Frontend/static/media/arizona-state-university.7cb803f1.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7e43531c.js",
-    "static/js/2.4146ec5c.chunk.js",
+    "static/js/2.8bb3a982.chunk.js",
     "static/css/main.2d4fde77.chunk.css",
-    "static/js/main.d34e3e8f.chunk.js"
+    "static/js/main.c2cbf82c.chunk.js"
   ]
 }

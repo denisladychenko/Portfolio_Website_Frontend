@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98626a0ab996ed16731a0bb086224713",
+    "revision": "ffda91c95ef117e50bea18c1dd4c6697",
     "url": "/Portfolio_Website_Frontend/index.html"
   },
   {
-    "revision": "dd6167bd7a78526866b3",
+    "revision": "875153c2be005a667dd5",
     "url": "/Portfolio_Website_Frontend/static/css/main.2d4fde77.chunk.css"
   },
   {
-    "revision": "0fc950321c76f8c7a076",
-    "url": "/Portfolio_Website_Frontend/static/js/2.4146ec5c.chunk.js"
+    "revision": "3af4c010789afc6b493b",
+    "url": "/Portfolio_Website_Frontend/static/js/2.8bb3a982.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Portfolio_Website_Frontend/static/js/2.4146ec5c.chunk.js.LICENSE.txt"
+    "url": "/Portfolio_Website_Frontend/static/js/2.8bb3a982.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd6167bd7a78526866b3",
-    "url": "/Portfolio_Website_Frontend/static/js/main.d34e3e8f.chunk.js"
+    "revision": "875153c2be005a667dd5",
+    "url": "/Portfolio_Website_Frontend/static/js/main.c2cbf82c.chunk.js"
   },
   {
     "revision": "0b43568fc3f640dd5dd8",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0e777a8569a8eeb18db6b9e7159f089f",
     "url": "/Portfolio_Website_Frontend/static/media/Connect4_game.0e777a85.png"
+  },
+  {
+    "revision": "dc47c50f68e3897e06b103f154460acd",
+    "url": "/Portfolio_Website_Frontend/static/media/Denis_Ladychenko_Resume.dc47c50f.pdf"
   },
   {
     "revision": "c0e65ae65e511e85cb3f30f6f9a40fb8",
