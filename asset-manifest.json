@@ -1,34 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio_Website_Frontend/static/css/main.2d4fde77.chunk.css",
-    "main.js": "/Portfolio_Website_Frontend/static/js/main.bf454a8b.chunk.js",
-    "main.js.map": "/Portfolio_Website_Frontend/static/js/main.bf454a8b.chunk.js.map",
-    "runtime-main.js": "/Portfolio_Website_Frontend/static/js/runtime-main.7e43531c.js",
-    "runtime-main.js.map": "/Portfolio_Website_Frontend/static/js/runtime-main.7e43531c.js.map",
-    "static/js/2.8bb3a982.chunk.js": "/Portfolio_Website_Frontend/static/js/2.8bb3a982.chunk.js",
-    "static/js/2.8bb3a982.chunk.js.map": "/Portfolio_Website_Frontend/static/js/2.8bb3a982.chunk.js.map",
-    "index.html": "/Portfolio_Website_Frontend/index.html",
-    "precache-manifest.de2fda041987873d242a73d14e321ae3.js": "/Portfolio_Website_Frontend/precache-manifest.de2fda041987873d242a73d14e321ae3.js",
-    "service-worker.js": "/Portfolio_Website_Frontend/service-worker.js",
-    "static/css/main.2d4fde77.chunk.css.map": "/Portfolio_Website_Frontend/static/css/main.2d4fde77.chunk.css.map",
-    "static/js/2.8bb3a982.chunk.js.LICENSE.txt": "/Portfolio_Website_Frontend/static/js/2.8bb3a982.chunk.js.LICENSE.txt",
-    "static/media/Connect4_game.png": "/Portfolio_Website_Frontend/static/media/Connect4_game.0e777a85.png",
-    "static/media/Denis_Ladychenko_Resume.pdf": "/Portfolio_Website_Frontend/static/media/Denis_Ladychenko_Resume.dc47c50f.pdf",
-    "static/media/My_photo_copy.PNG": "/Portfolio_Website_Frontend/static/media/My_photo_copy.c0e65ae6.PNG",
-    "static/media/WSCC_copy_1.png": "/Portfolio_Website_Frontend/static/media/WSCC_copy_1.88c0a75b.png",
-    "static/media/arizona-state-university.png": "/Portfolio_Website_Frontend/static/media/arizona-state-university.7cb803f1.png",
-    "static/media/myPicture.jpg": "/Portfolio_Website_Frontend/static/media/myPicture.07176b4b.jpg",
-    "static/media/my_family_2.png": "/Portfolio_Website_Frontend/static/media/my_family_2.0d8c3802.png",
-    "static/media/ParagraphCard.css": "/Portfolio_Website_Frontend/static/media/notebook_flipped.ad70581f.png",
-    "static/media/pizzeria.png": "/Portfolio_Website_Frontend/static/media/pizzeria.4280df9d.png",
-    "static/media/portfolio_ws.png": "/Portfolio_Website_Frontend/static/media/portfolio_ws.8835aecb.png",
-    "static/media/snake_game.png": "/Portfolio_Website_Frontend/static/media/snake_game.13ad3616.png",
-    "static/media/snowboard_1.png": "/Portfolio_Website_Frontend/static/media/snowboard_1.d224cc8b.png"
+    "main.css": "/static/css/main.71aa2b3e.chunk.css",
+    "main.js": "/static/js/main.d436f362.chunk.js",
+    "main.js.map": "/static/js/main.d436f362.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fc75219d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fc75219d.js.map",
+    "static/js/2.ed9d980e.chunk.js": "/static/js/2.ed9d980e.chunk.js",
+    "static/js/2.ed9d980e.chunk.js.map": "/static/js/2.ed9d980e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2c59bf6f522cec16b96a49bf9b9a4644.js": "/precache-manifest.2c59bf6f522cec16b96a49bf9b9a4644.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.71aa2b3e.chunk.css.map": "/static/css/main.71aa2b3e.chunk.css.map",
+    "static/js/2.ed9d980e.chunk.js.LICENSE.txt": "/static/js/2.ed9d980e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e43531c.js",
-    "static/js/2.8bb3a982.chunk.js",
-    "static/css/main.2d4fde77.chunk.css",
-    "static/js/main.bf454a8b.chunk.js"
+    "static/js/runtime-main.fc75219d.js",
+    "static/js/2.ed9d980e.chunk.js",
+    "static/css/main.71aa2b3e.chunk.css",
+    "static/js/main.d436f362.chunk.js"
   ]
 }
