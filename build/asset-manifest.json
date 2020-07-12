@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Website_Frontend/static/css/main.36cadddc.chunk.css",
+    "main.js": "/Portfolio_Website_Frontend/static/js/main.59990beb.chunk.js",
+    "main.js.map": "/Portfolio_Website_Frontend/static/js/main.59990beb.chunk.js.map",
+    "runtime-main.js": "/Portfolio_Website_Frontend/static/js/runtime-main.7e43531c.js",
+    "runtime-main.js.map": "/Portfolio_Website_Frontend/static/js/runtime-main.7e43531c.js.map",
+    "static/js/2.b8d64e98.chunk.js": "/Portfolio_Website_Frontend/static/js/2.b8d64e98.chunk.js",
+    "static/js/2.b8d64e98.chunk.js.map": "/Portfolio_Website_Frontend/static/js/2.b8d64e98.chunk.js.map",
+    "index.html": "/Portfolio_Website_Frontend/index.html",
+    "precache-manifest.f79265fa1db6a83a64b507c14097ecab.js": "/Portfolio_Website_Frontend/precache-manifest.f79265fa1db6a83a64b507c14097ecab.js",
+    "service-worker.js": "/Portfolio_Website_Frontend/service-worker.js",
+    "static/css/main.36cadddc.chunk.css.map": "/Portfolio_Website_Frontend/static/css/main.36cadddc.chunk.css.map",
+    "static/js/2.b8d64e98.chunk.js.LICENSE.txt": "/Portfolio_Website_Frontend/static/js/2.b8d64e98.chunk.js.LICENSE.txt",
+    "static/media/My_photo_copy.PNG": "/Portfolio_Website_Frontend/static/media/My_photo_copy.c0e65ae6.PNG",
+    "static/media/WSCC_copy_1.png": "/Portfolio_Website_Frontend/static/media/WSCC_copy_1.88c0a75b.png",
+    "static/media/arizona-state-university.png": "/Portfolio_Website_Frontend/static/media/arizona-state-university.7cb803f1.png",
+    "static/media/myPicture.jpg": "/Portfolio_Website_Frontend/static/media/myPicture.07176b4b.jpg",
+    "static/media/my_family_2.png": "/Portfolio_Website_Frontend/static/media/my_family_2.0d8c3802.png",
+    "static/media/ParagraphCard.css": "/Portfolio_Website_Frontend/static/media/notebook_flipped.ad70581f.png",
+    "static/media/snowboard_1.png": "/Portfolio_Website_Frontend/static/media/snowboard_1.d224cc8b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e43531c.js",
+    "static/js/2.b8d64e98.chunk.js",
+    "static/css/main.36cadddc.chunk.css",
+    "static/js/main.59990beb.chunk.js"
+  ]
+}
