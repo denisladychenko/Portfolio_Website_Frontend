@@ -3,7 +3,7 @@
     height: 4rem;
     position: fixed;
     width: 100%;
-    
+    z-index: 1;
 }
 
 .nav-bar nav {
@@ -25,4 +25,61 @@
 
 .bars {
     display: none;
+}
+
+/*media queries*/
+
+
+/*tablet size*/
+@media only screen and (max-width: 940px){
+    .bars {
+        display: block;
+        float:right;
+        margin: 12px 20px;
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        color: white;
+        margin: 0.8rem;
+        font-family: 'Lora', serif;
+        font-size: 1.8rem;
+    }
+
+    .nav-bar {
+        background-color: #333333;
+        height: 4rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+}
+
+/*mobile size*/
+@media only screen and (max-width: 414px){
+    .bars {
+        display: block;
+        float:right;
+        margin: 8px 10px;
+        font-size: 2rem;
+    }
+
+    .logo {
+        color: white;
+        margin: 0.7rem 0;
+        font-family: 'Lora', serif;
+        font-size: 1.3rem;
+    }
+
+    .nav-bar {
+        height: 3rem;
+    }
+    .logo-container {
+        float: left; 
+        height: inherit; 
+        margin-left: 0.6rem;
+    }
+    
 }

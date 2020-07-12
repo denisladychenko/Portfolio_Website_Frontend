@@ -13,15 +13,97 @@
 }
 
 .title {
-    margin-top: 8rem;
+    text-align: center;
+    margin-top: 9rem;
 }
 
 .summary {
-    margin-top: 6rem;
+    text-align: center;
+    margin-top: 4rem;
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .button {
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
+
+
+
+/*media*/
+
+@media only screen and (max-width: 1200px){
+
+    .title {
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .summary {
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    .button {
+        margin-top: 2rem;
+    }
+}
+
+/*tablet*/
+@media only screen and (max-width: 991px){
+    .my-photo {
+        width: 30%;
+        margin: auto;
+    }
+    .centered-container {
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+    .title {
+        margin-top: 3rem;
+    }
+    .summary {
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    .button {
+        margin-top: 2rem;
+    }
+}
+
+/*mobile size*/
+@media only screen and (max-width: 414px){
+    .my-photo {
+        width: 30%;
+        margin: 6rem auto 0;
+        height: auto;
+    }
+    .centered-container {
+        text-align: center;
+        top:0;
+        left: 0;
+
+        -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+        transform: translate(0);
+    }
+    .title {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    .summary {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .button {
+        margin: 2rem auto 4rem;
+
+    }
+}
+

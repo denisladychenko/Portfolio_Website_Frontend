@@ -4,3 +4,26 @@
     text-shadow: 2px 2px gray;
 }
 
+.download-btn {
+    position: fixed;
+    bottom: 12%;
+    right: 9%;
+}
+
+#download-icon {
+    padding-right: 4px;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    .download-btn {
+        position: static;
+        margin: 15px auto;
+    }
+    .download-btn-container {
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+}

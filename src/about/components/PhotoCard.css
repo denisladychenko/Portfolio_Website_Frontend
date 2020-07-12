@@ -18,19 +18,18 @@
     -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
 }
 
-.resume-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
-    -moz-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
-    -webkit-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
-    -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
-}
 
-.resume-photo-container {
-    float: left;
-}
 
+/*media queries*/
+
+@media only screen and (max-width: 1200px) {
+    .photo-card-container {
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    
+}
 
 

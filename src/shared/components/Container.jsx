@@ -5,7 +5,7 @@ import "./Container.css";
 
 const Container = props => {
     return (
-        <div className={props.className}>
+        <div className={props.className} onClick={props.onClick}>
             {props.children}
         </div>
     );

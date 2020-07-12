@@ -1,0 +1,112 @@
+.resume-container {
+    width: 58%;
+    height: auto;
+    margin: 20px auto;
+    /* border: 3px solid wheat; */
+    margin-bottom: 6rem;
+}
+
+.resume-heading {
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    /* border: 2px solid black; */
+}
+.resume-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+}
+
+.resume-photo-container {
+    float: left;
+}
+
+.resume-heading-middle-container {
+    float: left;
+    margin-left: 15%;
+}
+.resume-heading-right-container {
+    float: left;
+    margin-left: 10%;
+}
+
+.resume-heading-right-container a {
+    display: block;
+    margin-bottom: 18px;
+}
+
+
+
+/*media queries*/
+@media only screen and (max-width: 1750px) {
+
+    .resume-heading-middle-container {
+        margin-left: 5%;
+    }
+    .resume-heading-right-container {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1525px) {
+
+    .resume-container {
+        width: 78%;
+    }
+    .resume-heading-middle-container {
+        margin-left: 5%;
+    }
+    .resume-heading-right-container {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+
+    .resume-heading-middle-container {
+        position: absolute;
+        display: none;
+    }
+    .resume-heading-right-container {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .resume-container {
+        width: 98%;
+    }
+    .resume-photo-container {
+        float: none;
+        text-align: center;
+    }
+    .resume-heading-right-container {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .resume-heading {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        /* border: 2px solid black; */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .resume-container {
+        width: 100%;
+    }
+
+    .resume-heading-right-container {
+        margin: 20px auto;
+    }
+    .resume-heading {
+        width: 98%;
+    }
+}

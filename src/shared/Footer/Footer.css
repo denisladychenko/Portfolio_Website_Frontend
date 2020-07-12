@@ -6,7 +6,6 @@
     height: 4.2rem;
     bottom: 0;
     overflow: hidden;
-    /* position: relative;    */
 }
 
 .copyright {
@@ -16,4 +15,23 @@
 
 .icons {
     padding: 10px;
+}
+
+
+/*media queries*/
+
+@media only screen and (max-width: 414px) {
+    .footer {
+        height: 3.7rem;
+    }
+    
+    .copyright {
+        color: white;
+        font-size: 0.6rem;
+        margin-top: 0;
+    }
+    
+    .icons {
+        font-size: 1x;
+    }
 }

@@ -1,0 +1,116 @@
+.form-container {
+    margin-top: 70px;
+    width: 40%;
+    height: 600px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(206, 238, 238, 0.4);
+    box-shadow: 10px 10px 5px gray;
+}
+
+.form-icon-container {
+    display: inline-block;
+    padding: 25px;
+    border: 3px solid whitesmoke;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: -55px ;
+}
+
+.contact-info-container {
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin: 0 auto 50px ;
+    padding: 10px;
+}
+
+.contact-info-container a {
+    color: rgb(29, 28, 28);
+}
+
+.contact-info-container a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.contact-info-table {
+    margin: auto;
+    width: auto;
+}
+
+
+.contact-info-table tr :last-child{
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+#contact-me-form input[type="text"], #contact-me-form input[type="email"], textarea{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid snow;
+    background-color: transparent;
+    
+}
+
+#contact-me-form input[type="text"]:focus, #contact-me-form input[type="email"]:focus, textarea:focus  {
+    background-color: transparent !important;
+    outline: none;
+    border-bottom: 3px solid white;
+    background-image: none;
+}
+
+/* #contact-me-form input[type="text"]:hover, textarea:hover  {
+    border-bottom: 3px solid white;
+} */
+
+#contact-me-form input[type="submit"] {
+    width: 90%;
+    margin: 40px auto;
+}
+
+/*Autofill background color*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+/*media query*/
+
+@media only screen and (max-width: 1400px) {
+    .form-container {
+        width: 60%;
+        height: auto;
+    }
+}
+
+/*tablet size*/
+@media only screen and (max-width: 768px) {
+    .form-container {
+        width: 80%;
+    }
+}
+
+/*mobile size*/
+@media only screen and (max-width: 450px) {
+    .form-container {
+        width: 95%;
+    }
+    .contact-info-container {
+        width: 100%;
+        border-bottom: 1px solid white;
+        text-justify: left;
+        margin: 0 0 50px 0;
+    }
+    .contact-info-table tr :last-child{
+        text-align: left;
+        padding-left: 5px;
+    }
+}
