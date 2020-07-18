@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./BioSectionTextThenImg.css";
+
 import Container from "../../shared/components/Container";
 import PhotoCard from "../../about/components/PhotoCard";
 import ParagraphCard from "../../about/components/ParagraphCard";

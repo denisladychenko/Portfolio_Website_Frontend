@@ -9,9 +9,9 @@ const Footer = props => {
     const year = new Date().getFullYear();
     return (
         <footer className={props.className}>
-            <FontAwesomeIcon className="icons" icon={faGithub} size="3x" color="white" />
-            <FontAwesomeIcon className="icons" icon={faFacebook} size="3x" color="white" />
-            <FontAwesomeIcon className="icons" icon={faLinkedin} size="3x" color="white" />
+            <a href="https://github.com/denisladychenko" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icons" icon={faGithub} size="3x" color="white" /></a>
+            <a href="https://www.facebook.com/denis.ladychenko" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icons" icon={faFacebook} size="3x" color="white" /></a>
+            <a href="https://linkedin.com/in/denis-ladychenko-6a2252140" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icons" icon={faLinkedin} size="3x" color="white" /></a>
             <Paragraph className="copyright">{`©${year} Denis Ladychenko`}</Paragraph>
         </footer>
     );

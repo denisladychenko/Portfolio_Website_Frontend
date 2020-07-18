@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./ContactPage.css";
 import ContentHeading from "../../shared/Heading/ContentHeading";
 import ContactMeForm from "../components/ContactMeForm";
 // import Container from "../../shared/components/Container";

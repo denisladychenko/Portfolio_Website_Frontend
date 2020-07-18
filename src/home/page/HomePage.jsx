@@ -6,9 +6,13 @@ import Summary from "../components/Summary";
 import Button from "../../shared/components/Button";
 import "./HomePage.css"
 import ResponsiveImg from "../../shared/components/ResponsiveImg";
+import { NavLink } from "react-router-dom";
 
 
 const HomePage = () => {
+    //this request is to wake up the Heroku server. Does not fetch any actual data
+    fetch(process.env.REACT_APP_BACKEND_URL + "/");
+
 
 const sources = [
     {
@@ -37,7 +41,7 @@ const sources = [
                        such as frontend, backend, as well as database technologies.
                      Constantly learning new things and looking for ways to improve the skill set.
                     </Summary>
-                    <Button className="button btn btn-lg btn-primary btn-block">Get To Know This Guy</Button>
+                    <NavLink to="/about"><Button className="button btn btn-lg btn-primary btn-block">Get To Know This Guy</Button></NavLink>
                 </Container>
             </Container>
         </Container>

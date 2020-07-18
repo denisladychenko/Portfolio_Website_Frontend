@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./AboutPage.css";
+
 import ContentHeading from "../../shared/Heading/ContentHeading";
 import Container from "../../shared/components/Container";
 import BioSectionImgThenText from "../components/BioSectionImgThenText";
@@ -15,7 +15,7 @@ const AboutPage = () => {
                 About Me
             </ContentHeading>
             <Container className="container" > 
-                <BioSectionImgThenText title="Bio" src="/assets/images/myPicture.jpg" alt="Denis Ladychenko Photo">
+                <BioSectionImgThenText title="Bio" src="/assets/images/myPicture.png" alt="Denis Ladychenko Photo">
                 {bundle.BioText}
                 </BioSectionImgThenText>
                 <BioSectionTextThenImg title="Family" src="/assets/images/my_family_2.png" alt="Family">

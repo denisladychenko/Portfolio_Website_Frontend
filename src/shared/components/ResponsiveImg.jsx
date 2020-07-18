@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./ResponsiveImg.css";
 
 
 const ResponsiveImg = props => {

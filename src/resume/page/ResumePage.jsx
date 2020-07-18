@@ -8,10 +8,8 @@ import ContentHeading from "../../shared/Heading/ContentHeading";
 import Container from "../../shared/components/Container";
 import ResumeSection from "../components/ResumeSection";
 import PhotoCard from "../../about/components/PhotoCard";
-// import myPhoto from "/assets/images/myPicture.jpg";
 import ResumeHeading from "../components/ResumeHeading";
 import Paragraph from "../../shared/components/Paragraph";
-// import myPDF from "/assets/Denis_Ladychenko_Resume.pdf";
 
 
 
@@ -25,7 +23,7 @@ const ResumePage = () => {
             </ContentHeading>
             <Container className="resume-container">
                 <ResumeHeading className="resume-heading">
-                    <PhotoCard containerClassName="resume-photo-container" imageClassName="resume-photo" src="/assets/images/myPicture.jpg" alt="Denis Ladychenko photo"></PhotoCard>
+                    <PhotoCard containerClassName="resume-photo-container" imageClassName="resume-photo" src="/assets/images/myPicture.png" alt="Denis Ladychenko photo"></PhotoCard>
                     <Container className="resume-heading-middle-container">
                         <p className="resume-bold-heading" >Website:</p>
                         <p className="resume-bold-heading" >Email:</p>
@@ -34,7 +32,7 @@ const ResumePage = () => {
                         <p className="resume-bold-heading" >LinkedIn: </p>
                     </Container>
                     <Container className="resume-heading-right-container">
-                    <NavLink to="/" >www.dsladychenko.com</NavLink>
+                    <NavLink to="/" >dsladychenko.com</NavLink>
                     <a href="mailto:dsladychenko@gmail.com">dsladychenko@gmail.com</a>
                     <a href="tel:1-678-899-0093">(678)899-0093</a>
                     <a href="https://github.com/denisladychenko" >https://github.com/denisladychenko</a>

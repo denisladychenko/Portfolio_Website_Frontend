@@ -4,6 +4,7 @@ import Card from "../../shared/components/Card";
 import "./ProjectsPage.css";
 import ContentHeading from "../../shared/Heading/ContentHeading";
 import Container from "../../shared/components/Container";
+import Message from "../../shared/components/Message";
 
 
 
@@ -20,15 +21,16 @@ const ProjectsPage = () => {
         .then(response => response.json())
         .then((response) => setProjects(() => {
 
-            if(!response.ok){
-                console.log("Something is wrong!" + response.message);
-            }
             const data = response;
+            //sort from most recent projects to oldest
+            data.sort((a, b) => {
+                return new Date(b.timePeriod).getFullYear() - new Date(a.timePeriod).getFullYear();
+            });
             
             let groups = [];   //grouping of 3 cards
             let group = [];    //group of 3 cards to be displayed in a single row
             let i;
-
+            //separate projects in groups of 3
             for(i = 1; i <= data.length; i++){
                  if((i % 3) !== 0){
                     group.push(data[i - 1]);
@@ -42,20 +44,26 @@ const ProjectsPage = () => {
             if(group.length !== 0){
                 groups.push(group);
             }
-        
+            setIsLoading(false);
             return groups;
             }))
             .catch((err) => {
                 setIsLoading(false);
                 setError(err.message);
             });
-            setIsLoading(false);
+            
     }, []);
+
+    const OkBtnClickHandler = (value, msgType) => {
+        //closes message window depending on what type of message it is
+        msgType === "info" ? setIsLoading(value) : setError(value); 
+    }
     
 
     return (
         <React.Fragment>
-        {isLoading && <p>Loading projects...</p>}
+        {isLoading && <img className="centered" src="/assets/images/cme-pl-ajax-loader.gif" alt="Loading..." />}     
+        {error && <Message className="centered error message" msgHeaderClassName="error" title="Error" onOkButtonClick={OkBtnClickHandler}>{error}</Message>}
             <ContentHeading className="heading-container">
                 Projects
             </ContentHeading>

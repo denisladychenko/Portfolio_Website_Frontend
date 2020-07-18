@@ -1,0 +1,43 @@
+.message {
+    width: 40%;
+    height: auto;
+    position: absolute; 
+    border-radius: 15px;  
+    z-index: 10;
+}
+
+.error {
+    background-color: rgb(247, 56, 56);
+    border: 3px solid rgb(247, 56, 56);
+}
+
+.info {
+    background-color: yellow;
+    border: 3px solid yellow;
+}
+
+.message-header {
+    height: 3rem;
+    text-align: center;
+    padding: 2px; 
+    border-radius: 15px 15px 0 0;
+}
+.message-body {
+    padding: 20px;
+    background-color: white ;
+    border-radius: 0 0 15px 15px; 
+    font-weight: bolder;
+}
+
+.ok-btn-container {
+    text-align: center;
+}
+
+
+/*media queries*/
+
+@media only screen and (max-width: 450px) {
+    .message {
+        width: 95%;
+    }
+}
