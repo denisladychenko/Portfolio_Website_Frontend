@@ -11,7 +11,8 @@ import { NavLink } from "react-router-dom";
 
 const HomePage = () => {
     //this request is to wake up the Heroku server. Does not fetch any actual data
-    fetch(process.env.REACT_APP_BACKEND_URL + "/");
+    fetch(process.env.REACT_APP_BACKEND_URL + "/")
+    .catch((err) => console.log(err));
 
 
 const sources = [
