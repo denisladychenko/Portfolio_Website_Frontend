@@ -88,6 +88,27 @@ const ResumePage = () => {
                 </ResumeSection>
                 <ResumeSection title="PROJECTS" className="resume-section">
                 <ol>
+                    <p className="resume-section-title">January, 2020</p>
+                        <li>
+                            <div className="project-item">
+                                <p className="resume-section-paragraph" ><span className="resume-project-name">"Portfolio Website"</span></p>
+                                <p className="it resume-section-paragraph">Accomplishments:</p>
+                                <ul>
+                                    <li><p className="resume-section-paragraph">Developed a frontend.</p></li>
+                                    <li><p className="resume-section-paragraph">Developed a backend.</p></li>
+                                    <li><p className="resume-section-paragraph">Implemented communication with database.</p></li>
+                                </ul>
+                                <p className="it resume-section-paragraph">Technologies used:</p>
+                                <ul>
+                                    <li><p className="resume-section-paragraph">React.js</p></li>
+                                    <li><p className="resume-section-paragraph">Node.js</p></li>
+                                    <li><p className="resume-section-paragraph">Express.js</p></li>
+                                    <li><p className="resume-section-paragraph">jQuery</p></li>
+                                    <li><p className="resume-section-paragraph">Bootstrap</p></li>
+                                </ul>
+                                <a href="https://github.com/denisladychenko/Portfolio_Website_Frontend">GitHub link</a>
+                            </div>
+                        </li>
                     <p className="resume-section-title" >August, 2019</p>
                     <li>
                         <div className="project-item">
