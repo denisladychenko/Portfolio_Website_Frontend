@@ -17,7 +17,7 @@ const ProjectsPage = () => {
     useEffect(() => {
         
         setIsLoading(true);
-        fetch(process.env.REACT_APP_BACKEND_URL + "/projects")
+        fetch(process.env.production + "/projects")
         .then(response => response.json())
         .then((response) => setProjects(() => {
 
