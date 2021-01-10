@@ -17,7 +17,7 @@ const ProjectsPage = () => {
     useEffect(() => {
         
         setIsLoading(true);
-        fetch(process.env.production + "/projects")
+        fetch("https://dl-portfolio-api.herokuapp.com" + "/projects")
         .then(response => response.json())
         .then((response) => setProjects(() => {
 
