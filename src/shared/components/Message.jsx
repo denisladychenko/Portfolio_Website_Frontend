@@ -10,7 +10,6 @@ const Message = props => {
             <div className="message-body">
             <p>{props.children}</p>
             <div className="ok-btn-container"><button className="btn btn-dark" onClick={(event) => {
-                console.log(event.target);
                 props.onOkButtonClick(false, props.msgHeaderClassName)
                 }}>OK</button></div>
             </div>
