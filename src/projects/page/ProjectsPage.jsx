@@ -17,7 +17,7 @@ const ProjectsPage = () => {
     useEffect(() => {
 
         setIsLoading(true);
-        fetch("https://portfoliowebsitebackend-production.up.railway.app/projects")
+        fetch(process.env.REACT_APP_BACKEND_URL + "/projects")
             .then(response => response.json())
             .then((response) => setProjects(() => {
 
